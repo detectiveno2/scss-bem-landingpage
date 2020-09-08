@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Lading Page</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="nav-bar">
+        <div class="nav-bar__burger">
+          <button class="nav-bar__burger-btn">
+            <img src="images/open-menu.png" alt="menu-button" width="18" />
+          </button>
+        </div>
+        <div class="nav-bar__left">
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="#" class="menu__link"
+                ><img src="./images/brand-logo.svg" alt="logo-brand"
+              /></a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Our Plans</a>
+            </li>
+            <li class="menu__item menu__item--sub-menu">
+              <a href="#" class="menu__link">How It Works</a>
+              <ul class="sub-menu">
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">How It Works</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Sustainability</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Our Supplier</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Recycling</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item menu__item--sub-menu">
+              <a href="#" class="menu__link">Our Menus</a>
+              <ul class="sub-menu">
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Our Menus</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Cookbook</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Gift Cards</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">COVID-19 Updates</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Onion Recall Notice</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-bar__right">
+          <button class="nav-bar__login-btn">LOG IN</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hidden header -->
+    <div class="fixed-nav-wrapper">
+      <div class="fixed-nav">
+        <button class="fixed-nav__login-btn">LOG IN</button>
+        <div class="fixed-nav__item">
+          <a href="#" class="fixed-nav__link">
+            <span class="fixed-nav__span"
+              ><img src="images/list.png" width="18px"
+            /></span>
+            Our Plans</a
+          >
+        </div>
+        <div class="fixed-nav__item">
+          <a href="#" class="fixed-nav__link"
+            ><span class="fixed-nav__span"
+              ><img src="images/info.png" width="18px"
+            /></span>
+            How It Works</a
+          >
+        </div>
+        <div class="fixed-nav__item">
+          <a href="#" class="fixed-nav__link"
+            ><span class="fixed-nav__span"
+              ><img src="images/list.png" width="18px"
+            /></span>
+            Our Menus</a
+          >
+        </div>
+        <div class="fixed-nav__item">
+          <a href="#" class="fixed-nav__link">Help</a>
+        </div>
+        <div class="fixed-nav__item">
+          <a href="#" class="fixed-nav__link">COVID-19 Updates</a>
+        </div>
+        <div class="fixed-nav__item">
+          <a href="#" class="fixed-nav__link">Onion Recall Notice</a>
+        </div>
+        <div class="fixed-nav__item">
+          <a href="#" class="fixed-nav__link">Gift Cards</a>
+        </div>
+        <div class="fixed-nav__item">
+          <a href="#" class="fixed-nav__link">Sustainability</a>
+        </div>
+      </div>
+    </div>
+    <!-- Over lay -->
+    <div class="over-lay"></div>
+
+    <!-- Main body -->
+    <main>
+      <!-- Hero banner -->
+      <div class="hero">
+        <div class="hero__banner">
+          <div class="hero__content">
+            <h2 class="hero__title">We save you serious</h2>
+            <div class="hero__underline">
+              <h2 class="hero__title hero__title--animate hero__title--time">
+                Time
+              </h2>
+            </div>
+            <p class="hero__description">
+              America's Most Popular Mealkit with meals starting at <b>$7.49</b>
+            </p>
+            <button class="hero__btn">VIEW OUR PLANS</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Why section -->
+      <div class="why">
+        <div class="why__wrapper">
+          <p class="why__title">Why HelloFresh?</p>
+          <div class="why__container">
+            <div class="why__item">
+              <img
+                src="./images/why-hellofresh-icn1.png"
+                alt="No skimpin’ on the chicken!"
+                class="why__image"
+              />
+              <div class="why__text">
+                <p class="why__item-title">No skimpin’ on the chicken!</p>
+                <p class="why__content">Or steak, or fish, or plant protein.</p>
+              </div>
+            </div>
+            <div class="why__item">
+              <img
+                src="./images/why-hellofresh-icn2.png"
+                alt="No commitment whatsoever"
+                class="why__image"
+              />
+              <div class="why__text">
+                <p class="why__item-title">No commitment whatsoever</p>
+                <p class="why__content">
+                  Skipping weeks or cancelling is super easy.
+                </p>
+              </div>
+            </div>
+            <div class="why__item">
+              <img
+                src="./images/why-hellofresh-icn3.png"
+                alt="The most 5-star reviews"
+                class="why__image"
+              />
+              <div class="why__text">
+                <p class="why__item-title">The most 5-star reviews</p>
+                <p class="why__content">
+                  Our huge recipe selection wows week after week.
+                </p>
+              </div>
+            </div>
+            <div class="why__item">
+              <img
+                src="./images/why-hellofresh-icn4.png"
+                alt="Fresh and affordable"
+                class="why__image"
+              />
+              <div class="why__text">
+                <p class="why__item-title">Fresh and affordable</p>
+                <p class="why__content">
+                  Chef-created deliciousness from $7.49 per meal.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="why__start-btn">GET STARTED</button>
+        </div>
+      </div>
+
+      <!-- Box section -->
+      <div class="box">
+        <div class="box__container">
+          <div class="box__content">
+            <h2 class="box__title">What's Inside The Box Each Week</h2>
+            <div class="box__content-item">
+              <span class="box__tick"
+                ><img src="./images/check.svg" alt="" width="16px"
+              /></span>
+              <p class="box__text">
+                Easy-to-follow recipes with clear nutritional info
+              </p>
+            </div>
+            <div class="box__content-item">
+              <span class="box__tick"
+                ><img src="./images/check.svg" alt="" width="16px"
+              /></span>
+              <p class="box__text">
+                High-quality ingredients sourced straight from the farm
+              </p>
+            </div>
+            <div class="box__content-item">
+              <span class="box__tick"
+                ><img src="./images/check.svg" alt="" width="16px"
+              /></span>
+              <p class="box__text">
+                Convenient meal kits that fit perfectly in the fridge
+              </p>
+            </div>
+            <div class="box__content-item">
+              <span class="box__tick"
+                ><img src="./images/check.svg" alt="" width="16px"
+              /></span>
+              <p class="box__text">
+                A fun cooking experience that makes you feel unstoppable
+              </p>
+            </div>
+            <button class="box__what-btn">CHOOSE MY PLAN</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tag section -->
+      <div class="tag">
+        <div class="tag-header">
+          <p class="tag-header__title">
+            Cook it. Love it. Tag it #HelloFreshPics
+          </p>
+        </div>
+        <div class="tag-main">
+          <div class="tag-main__block">
+            <div class="tag-main__item">
+              <div class="tag-main__overlay">
+                <p class="tag-main__count">
+                  <span
+                    ><img src="./images/heart.svg" alt="" class="tag-main__svg"
+                  /></span>
+                  12358
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tag-main__block">
+            <div class="tag-main__item">
+              <div class="tag-main__overlay">
+                <p class="tag-main__count">
+                  <span
+                    ><img src="./images/heart.svg" alt="" class="tag-main__svg"
+                  /></span>
+                  2534
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tag-main__block">
+            <div class="tag-main__item">
+              <div class="tag-main__overlay">
+                <p class="tag-main__count">
+                  <span
+                    ><img src="./images/heart.svg" alt="" class="tag-main__svg"
+                  /></span>
+                  3105
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tag-main__block">
+            <div class="tag-main__item">
+              <div class="tag-main__overlay">
+                <p class="tag-main__count">
+                  <span
+                    ><img src="./images/heart.svg" alt="" class="tag-main__svg"
+                  /></span>
+                  2211
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tag-main__block">
+            <div class="tag-main__item">
+              <div class="tag-main__overlay">
+                <p class="tag-main__count">
+                  <span
+                    ><img src="./images/heart.svg" alt="" class="tag-main__svg"
+                  /></span>
+                  3405
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tag-main__block">
+            <div class="tag-main__item">
+              <div class="tag-main__overlay">
+                <p class="tag-main__count">
+                  <span
+                    ><img src="./images/heart.svg" alt="" class="tag-main__svg"
+                  /></span>
+                  2193
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tag-main__block">
+            <div class="tag-main__item">
+              <div class="tag-main__overlay">
+                <p class="tag-main__count">
+                  <span
+                    ><img src="./images/heart.svg" alt="" class="tag-main__svg"
+                  /></span>
+                  2924
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tag-main__block">
+            <div class="tag-main__item">
+              <div class="tag-main__overlay">
+                <p class="tag-main__count">
+                  <span
+                    ><img src="./images/heart.svg" alt="" class="tag-main__svg"
+                  /></span>
+                  2400
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tag-footer">
+          <p class="tag-footer__text">
+            <span
+              ><img src="./images/instagram.svg" alt="" class="tag-footer__svg"
+            /></span>
+            Follow us on Instagram
+            <span class="tag-footer__ins">@hellofresh</span>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p class="footer__title">Flexible Plans</p>
+      <p class="footer__text">
+        Skip weeks, swap recipes, and cancel anytime - only order what
+      </p>
+      <p class="footer__text">and when you want. No commitments.</p>
+      <button class="footer__btn">VIEW OUR PLANS</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
